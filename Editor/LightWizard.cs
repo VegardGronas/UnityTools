@@ -10,7 +10,7 @@ public class LightWizard : ScriptableWizard
     public float intensity = 20;
     public Color color = Color.red;
 
-    [MenuItem("GameObject/Create Light Wizard")]
+    [MenuItem("SceneSetup/Create Light")]
     static void CreateWizard()
     {
         ScriptableWizard.DisplayWizard<LightWizard>("Create Light", "Create", "Apply");
